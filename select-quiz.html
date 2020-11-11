@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lyrics Quiz- Select a decade</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/quiz-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <a href="index.html">Lyric Trivia</a></div>
+        <div class="menu-container">
+            <div id="decade-buttons" class="dec-grid">
+                <button class="dec-btn"><a href="60s.html">60's</a></button>
+                <button class="dec-btn"><a href="70s.html">70's</a></button>
+                <button class="dec-btn"><a href="80s.html">80's</a></button>
+                <button class="dec-btn"><a href="90s.html">90's</a></button>
+                <button class="dec-btn gray">00's coming soon!</button>
+                <button class="dec-btn gray">10's coming soon!</button>
+            </div>
+
+        </div>
+        <div class="quizselect"></div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn hide">Start</button>
+            <button id="next-btn" class="next-btn btn hide">next</button>
+        </div>
+    </div>
+<script src="scripts/quiz.js"></script>
+</body>
+</html>

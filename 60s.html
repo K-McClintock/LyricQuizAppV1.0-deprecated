@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lyrics Quiz- the 60's</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/60s-quiz.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+           <div class="menu"><button class="nav-btn"><a href="index.html">Menu</a></button></div>
+           <div class="space"></div>
+           <div class="score">Score: <button id="right-answers" class="nav-btn">0</div>
+        </div>
+        <br>
+        <div class="quizselect"></div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="dec-select" class="dec-slct-btn btn hide"><a href="select-quiz.html">Back to decade</a></button>
+        </div>
+    </div>
+<script src="scripts/quiz-60s.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    background-image: radial-gradient(gray,#333333);
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;  
+}
+
+.navbar {
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: -20px auto 0 auto;
+    width: 80%;
+    border: 0;
+    background-color: transparent;
+}
+
+#container {
+    width: 800px;
+    max-width: 98%;
+    height: 667px;
+    max-height: 98%;
+    background-color: rebeccapurple;
+    background-image: url(../images/Quiz-placeholder.jpg);
+    border: 5px solid goldenrod;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+    padding: 20px;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+#question {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 16px;
+}
+
+.btn:hover {
+    border-color: black;
+    background-color: blue;
+    color: white;
+}
+
+.btn.correct {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+.btn.wrong {
+    background-color: lightcoral;
+    border-color: crimson;
+}
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#start-btn, #next-btn, #dec-slct-btn {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display:none;
+}
+
+.menu-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+}
+
+.slct-btn {
+    font-family: 'Rammetto One', cursive;
+    font-size: 1.2em;
+    text-shadow: -1px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
+    padding: 5px 20px;
+    background-color: #21266b;
+    box-shadow: 4px 4px 4px black;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+
+#bigMenu {
+    font-family: 'Rammetto One', cursive;
+    font-size: 1.75em;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#bigMenu:hover {
+    background-color: #70be5b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.slct-btn:hover {
+    background-color: #68bbe5;
+    border-color: yellow;
+    color: white;
+    box-shadow: 3px 3px 3px lightyellow, 3px 3px 3px lightyellow, -3px -3px 3px lightyellow, -3px -3px 3px lightyellow;
+}
+
+.dec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.dec-btn {
+    font-family: 'Rammetto One', cursive;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    text-shadow: -1px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px black;
+    background-color: darkblue;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+
+.dec-btn:hover {
+    background-color: #68bbe5;
+    border-color: yellow;
+    color: white;
+    box-shadow: 3px 3px 3px lightyellow, 3px 3px 3px lightyellow, -3px -3px 3px lightyellow, -3px -3px 3px lightyellow;
+}    
+
+.no-click {
+    pointer-events: none;
+}
+
+.gray {
+    background-color: dimgray;
+    color: whitesmoke;
+    border-color: black;
+    font-size:.75em;
+}
+
+.gray:hover {
+    background-color: dimgray;
+    color: whitesmoke;
+    border-color: black;
+    box-shadow: 4px 4px 4px black;
+}
+
+#credits {
+    color: white;
+    font-size: 14px;
+    height: 75%;
+    line-height: 1.5em;
+}
+
+#lyriccopyright {
+    font-size: 12px;
+    margin-top: 15px;
+}
